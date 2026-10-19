@@ -8,7 +8,7 @@
 
 ## 📝 Meeting Minutes
 
-📄 [View Our Meeting Minutes](PASTE_YOUR_GOOGLE_DOCS_LINK_HERE)
+📄 [View Our Meeting Minutes](https://docs.google.com/document/d/1JLi4vCslu_didWypaCwZ9M4XbA9T6TUN0lx3V_1mUnQ/edit?usp=sharing)
 
 ## 🎥 Meeting Recording
 
