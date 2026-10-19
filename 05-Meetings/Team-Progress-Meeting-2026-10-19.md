@@ -12,21 +12,9 @@
 
 ## 🎥 Meeting Recording
 
-⏳ # 📋 Team Progress Meeting | October 19, 2026
-
-**Project:** Time Capsule – Digital Memories for the Future
-
-**Meeting Type:** Team Progress Discussion
-
----
-
-## 📝 Meeting Minutes
-
-📄 [View Our Meeting Minutes](https://docs.google.com/document/d/1JLi4vCslu_didWypaCwZ9M4XbA9T6TUN0lx3V_1mUnQ/edit?usp=sharing)
-
-## 🎥 Meeting Recording
-
 ⏳ Recording will be uploaded soon.
+
+https://docs.google.com/document/d/1JLi4vCslu_didWypaCwZ9M4XbA9T6TUN0lx3V_1mUnQ/edit?usp=sharing
 
 ## 📌 Meeting Highlights
 
