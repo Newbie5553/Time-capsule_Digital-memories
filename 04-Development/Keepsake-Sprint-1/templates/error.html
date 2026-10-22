@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="locked-page">
+    <p class="eyebrow">LET’S GET YOU BACK</p>
+    <h1>{{ error.code }}</h1>
+    <p>{{ error.description }}</p>
+    <a class="button" href="{{ url_for('home') }}">Return home</a>
+</section>
+{% endblock %}

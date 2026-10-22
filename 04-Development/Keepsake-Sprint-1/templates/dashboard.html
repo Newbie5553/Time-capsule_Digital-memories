@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="page-heading">
+    <div>
+        <p class="eyebrow">YOUR PERSONAL MEMORY SPACE</p>
+        <h1>Hello, {{ g.user.name.split()[0] }}<span class="gold">.</span></h1>
+        <p>Some memories deserve a future.</p>
+    </div>
+</div>
+<section class="hero">
+    <div class="hero-copy">
+        <span class="hero-tag">A GIFT TO YOUR FUTURE SELF</span>
+        <h2>A little of today.<br>A lifetime to remember.</h2>
+        <p>Your account is ready.<br>Soon, this will be home to your time capsules.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="star s1">✦</span>
+        <span class="star s2">✧</span>
+        <div class="letter"><span>Dear future me,</span><i></i><i></i><i></i><b>with love, today.</b></div>
+        <div class="envelope"><div class="flap"></div><span>k.</span></div>
+        <span class="art-caption">SOME THINGS ARE WORTH THE WAIT</span>
+    </div>
+</section>
+<section class="panel">
+    <h2>Your collection</h2>
+    <p>Your memory collection is empty.</p>
+    <p>Capsule creation, uploads, and scheduled opening will arrive in future updates.</p>
+</section>
+<section class="panel">
+    <h3>{{ icon('people') }} Your account</h3>
+    <p><strong>Name:</strong> {{ g.user.name }}</p>
+    <p><strong>Email:</strong> {{ g.user.email }}</p>
+    <form action="{{ url_for('logout') }}" method="post">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <button class="button secondary">Sign out</button>
+    </form>
+</section>
+{% endblock %}

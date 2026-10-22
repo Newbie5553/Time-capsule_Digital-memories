@@ -1,0 +1,65 @@
+{% from 'icons.html' import icon %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keepsake · A little of today, for tomorrow</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% if g.user %}
+    <aside class="sidebar">
+        <a class="brand" href="{{ url_for('dashboard') }}">{{ icon('box') }} keepsake<span>®</span></a>
+        <div class="workspace-label">YOUR LITTLE TIME MACHINE</div>
+        <nav aria-label="Main navigation">
+            <a class="nav-item active" href="{{ url_for('dashboard') }}" aria-current="page">
+                {{ icon('box') }} My dashboard
+            </a>
+        </nav>
+        <div class="sidebar-note">
+            {{ icon('clock') }}
+            <h4>Good things take time.</h4>
+            <p>A thought today.<br>A treasure tomorrow.</p>
+            <span>MAKE ROOM FOR MEMORIES</span>
+        </div>
+        <div class="profile">
+            <span class="avatar">{{ g.user.name[0]|upper }}</span>
+            <div>
+                <strong>{{ g.user.name }}</strong>
+                <small>Your personal space</small>
+            </div>
+            <form action="{{ url_for('logout') }}" method="post">
+                <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+                <button class="signout" title="Sign out" aria-label="Sign out">↪</button>
+            </form>
+        </div>
+    </aside>
+    {% endif %}
+
+    <div class="{{ 'app-shell' if g.user else 'public-shell' }}">
+        {% if g.user %}
+        <header class="topbar">
+            <span>Your memories start here.</span>
+            <span class="local-pill"><i></i> Personal memory space</span>
+        </header>
+        {% else %}
+        <header class="public-nav">
+            <a class="brand" href="{{ url_for('home') }}">{{ icon('box') }} keepsake<span>®</span></a>
+            <a class="text-link" href="{{ url_for('login') }}">Sign in {{ icon('arrow') }}</a>
+        </header>
+        {% endif %}
+
+        <main>
+            {% for category, message in get_flashed_messages(with_categories=true) %}
+            <div class="flash {{ category }}" role="status">{{ message }}</div>
+            {% endfor %}
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            A little of today, for tomorrow.
+            <span>Made for the moments that matter.</span>
+        </footer>
+    </div>
+</body>
+</html>

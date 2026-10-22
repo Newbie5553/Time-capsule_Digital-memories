@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="auth-layout">
+    <div class="auth-story">
+        <span class="eyebrow">KEEPSAKE / YOUR STORY, CONTINUED</span>
+        <h1>Today is worth<br>remembering.</h1>
+        <p>A place for all the things you’ll be glad<br>you didn’t forget.</p>
+        <div class="auth-symbol">{{ icon('mail') }}</div>
+        <span class="eyebrow">A LITTLE OF TODAY, FOR TOMORROW.</span>
+    </div>
+    <section class="auth-form">
+        <p class="eyebrow">{{ 'YOUR NEXT CHAPTER STARTS HERE' if register else 'A LITTLE PIECE OF HOME' }}</p>
+        <h2>{{ 'Create your account' if register else 'Welcome back.' }}</h2>
+        <p>{{ 'Make a little room for your memories.' if register else 'Your personal space is waiting for you.' }}</p>
+        <form method="post">
+            <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+            {% if register %}
+            <label for="name">Your name
+                <input id="name" name="name" maxlength="60" autocomplete="name" required
+                       value="{{ request.form.get('name', '') }}" placeholder="What should we call you?">
+            </label>
+            {% endif %}
+            <label for="email">Email address
+                <input id="email" type="email" name="email" autocomplete="email" required
+                       maxlength="254" value="{{ request.form.get('email', '') }}" placeholder="you@example.com">
+            </label>
+            <label for="password">Password
+                <input id="password" type="password" name="password" minlength="8" maxlength="256"
+                       autocomplete="{{ 'new-password' if register else 'current-password' }}" required
+                       placeholder="{{ 'At least 8 characters' if register else 'Your password' }}">
+            </label>
+            <button class="button wide">{{ 'Create account' if register else 'Sign in' }} {{ icon('arrow') }}</button>
+        </form>
+        <p class="auth-switch">
+            {{ 'Already have an account?' if register else 'New to Keepsake?' }}
+            <a href="{{ url_for('login') if register else url_for('register') }}">
+                {{ 'Sign in' if register else 'Create an account' }}
+            </a>
+        </p>
+    </section>
+</div>
+{% endblock %}
