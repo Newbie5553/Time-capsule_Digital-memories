@@ -1,40 +1,5 @@
-{% extends 'base.html' %}
-{% block content %}
-<div class="page-heading">
-    <div>
-        <p class="eyebrow">YOUR PERSONAL MEMORY SPACE</p>
-        <h1>Hello, {{ g.user.name.split()[0] }}<span class="gold">.</span></h1>
-        <p>Some memories deserve a future.</p>
-    </div>
-</div>
-<section class="hero">
-    <div class="hero-copy">
-        <span class="hero-tag">A GIFT TO YOUR FUTURE SELF</span>
-        <h2>A little of today.<br>A lifetime to remember.</h2>
-        <p>Your account is ready.<br>Soon, this will be home to your time capsules.</p>
-    </div>
-    <div class="hero-art" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <span class="star s1">✦</span>
-        <span class="star s2">✧</span>
-        <div class="letter"><span>Dear future me,</span><i></i><i></i><i></i><b>with love, today.</b></div>
-        <div class="envelope"><div class="flap"></div><span>k.</span></div>
-        <span class="art-caption">SOME THINGS ARE WORTH THE WAIT</span>
-    </div>
-</section>
-<section class="panel">
-    <h2>Your collection</h2>
-    <p>Your memory collection is empty.</p>
-    <p>Capsule creation, uploads, and scheduled opening will arrive in future updates.</p>
-</section>
-<section class="panel">
-    <h3>{{ icon('people') }} Your account</h3>
-    <p><strong>Name:</strong> {{ g.user.name }}</p>
-    <p><strong>Email:</strong> {{ g.user.email }}</p>
-    <form action="{{ url_for('logout') }}" method="post">
-        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
-        <button class="button secondary">Sign out</button>
-    </form>
-</section>
-{% endblock %}
+{% extends 'base.html' %}{% block content %}<div class="page-heading"><div><p class="eyebrow">YOUR PERSONAL TIME CAPSULE</p><h1>Hello, {{g.user.name.split()[0]}}<span class="gold">.</span></h1><p>Some memories deserve a future.</p></div><a class="button" href="{{url_for('edit')}}">{{icon('plus')}} Create a capsule</a></div>
+<section class="hero"><div class="hero-copy"><span class="hero-tag">A GIFT TO YOUR FUTURE SELF</span><h2>Save a moment.<br>Meet it again, someday.</h2><p>The words, the people, the little things.<br>Keep them close. Open them when the time is right.</p><a class="button cream" href="{{url_for('edit')}}">Start a new memory {{icon('arrow')}}</a></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="star s1">✦</span><span class="star s2">✧</span><span class="star s3">✦</span><div class="letter"><span>Dear future me,</span><i></i><i></i><i></i><b>with love, today.</b></div><div class="envelope"><div class="flap"></div><span>k.</span></div><span class="art-caption">SOME THINGS ARE WORTH THE WAIT</span></div></section>
+<div class="stats"><div>{{icon('box')}}<span>Total capsules<strong>{{counts.all}}</strong></span></div><div>{{icon('lock')}}<span>Waiting for their moment<strong>{{counts.locked}}</strong></span></div><div>{{icon('mail')}}<span>Ready to rediscover<strong>{{counts.opened}}</strong></span></div></div>
+{% if notifications %}<div class="notice">{{icon('mail')}}<div><strong>A little piece of your past is ready.</strong><p>{% for n in notifications %}<a href="{{url_for('capsule',cid=n.id)}}">{{n.title}} →</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></div></div>{% endif %}
+<section><div class="section-heading"><h2>Your collection <span>{{counts.all}}</span></h2><form class="search" method="get"><input type="hidden" name="filter" value="{{selected}}"><input aria-label="Search capsules" name="q" value="{{q}}" placeholder="Search your memories…"><button aria-label="Search">⌕</button></form></div><div class="tabs">{% for value,label in [('all','All capsules'),('locked','Sealed'),('opened','Ready to open'),('draft','Drafts'),('shared','Shared with me')] %}<a class="{% if selected==value %}selected{% endif %}" href="{{url_for('dashboard',filter=value,q=q)}}">{{label}} <span>{{counts[value]}}</span></a>{% endfor %}</div><div class="capsule-grid">{% for c in cards %}<a class="capsule-card" href="{{url_for('capsule',cid=c.id)}}"><div class="card-art {{c.theme}}"><span class="badge {{c.state}}">{{'Sealed' if c.state=='locked' else 'Ready to open' if c.state=='opened' else 'Draft'}}</span><div class="mini-envelope">{{icon('mail')}}</div><span class="card-star">✧</span></div><div class="card-body"><small>{{'FROM '+c.author if c.shared else 'A MOMENT YOU SAVED'}}</small><h3>{{c.title}}</h3><p>{{icon('clock')}} {{c.unlock_at|date}}</p><div class="card-bottom">{% if c.state=='locked' %}<span data-countdown="{{c.unlock_at}}">Waiting for its moment</span>{{icon('lock')}}{% else %}<span>{{'Rediscover your memory' if c.state=='opened' else 'Continue your memory'}}</span>{{icon('arrow')}}{% endif %}</div></div></a>{% endfor %}<a class="new-card" href="{{url_for('edit')}}"><span>+</span><h3>{{'Your first memory starts here' if counts.all==0 else 'There’s more to remember'}}</h3><p>A letter, a photo, a little piece of now.</p><strong>Create a capsule →</strong></a></div>{% if not cards and counts.all %}<p class="muted">No capsules match this view. Try another filter or search.</p>{% endif %}</section>{% endblock %}
