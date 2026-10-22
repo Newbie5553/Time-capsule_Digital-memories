@@ -12,7 +12,7 @@
 
 ## 🎥 Meeting Recording
 
-⏳ Recording will be uploaded soon.
+⏳ Watch Our meeting recordings
 
 https://drive.google.com/file/d/1mszkRyiXgDcY7Jx9M3D_ewyqtNZ6nGq-/view?usp=sharing
 
