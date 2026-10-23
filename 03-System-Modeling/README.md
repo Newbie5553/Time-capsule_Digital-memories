@@ -1,4 +1,3 @@
-
 # 🧩 System Modeling – Time Capsule Project
 
 ## 📊 Sequence Diagrams
