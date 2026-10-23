@@ -146,9 +146,9 @@ Hamid explained the work completed on the HTML templates and the remaining work 
 
 | Resource | Link |
 |---|---|
-| 🎬 Meeting Recording | [Watch Recording](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0) |
-| 📄 Google Drive Meeting Minutes | [View Minutes](PASTE_MINUTES_LINK_HERE) |
-| 💻 Sprint 1 Source Code | [View Development](PASTE_DEVELOPMENT_LINK_HERE) |
+| 🎬 Meeting Recording | [https://drive.google.com/file/d/1akpHSzTy53EAXIwLqYT3Jot4tWUZ8Eer/view?usp=sharing]
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
+| 💻 Sprint 1 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recording and minutes are stored in Google Drive, with links maintained in GitHub for project tracking.
 
