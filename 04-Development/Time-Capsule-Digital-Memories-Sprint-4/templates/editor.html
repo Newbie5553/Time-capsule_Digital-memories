@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %}
+<a class="back" href="{{ url_for('dashboard') }}">← Back to your collection</a>
+<div class="page-heading">
+    <div>
+        <p class="eyebrow">A LITTLE GIFT TO SOMEDAY</p>
+        <h1>{{ 'Keep the story going.' if capsule else 'What will you remember?' }}</h1>
+        <p>There’s no perfect thing to say. Just make it yours.</p>
+    </div>
+</div>
+<form method="post" enctype="multipart/form-data" class="editor" id="capsule-form">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <div class="panel">
+        <label for="title">Give your capsule a name
+            <input id="title" name="title" required maxlength="100" value="{{ values.title }}"
+                   placeholder="A letter to my future self">
+        </label>
+        <label for="message">Your message to the future
+            <textarea id="message" name="message" required maxlength="20000" rows="12"
+                      placeholder="Dear future me,&#10;&#10;Here’s what life looks like right now…">{{ values.message }}</textarea>
+        </label>
+        <label class="upload" for="files">
+            {{ icon('mail') }}
+            <strong>Add a little more of today</strong>
+            <span>Up to 10 attachments per capsule · 50 MB per save</span>
+            <input id="files" type="file" name="files" multiple
+                   accept=".jpg,.jpeg,.png,.gif,.webp,.mp4,.webm" data-existing="{{ attachments|length }}">
+            <small id="file-list" aria-live="polite">JPG, PNG, GIF, WebP, MP4, WebM</small>
+        </label>
+        {% if attachments %}
+        <h3>Already in this draft</h3>
+        <ul class="existing-files">
+            {% for file in attachments %}
+            <li>{{ file.filename }} <small>{{ file.kind }}</small></li>
+            {% endfor %}
+        </ul>
+        <p class="hint">Existing attachments stay in your draft when you save changes.</p>
+        {% endif %}
+    </div>
+    <aside class="editor-options">
+        <div class="panel">
+            <h3>{{ icon('box') }} Make it personal</h3>
+            <fieldset class="cover-fieldset">
+                <legend>Choose a cover</legend>
+                <div class="theme-options">
+                    {% for value, label in [('sky', 'Moonlight'), ('rose', 'Rose'), ('forest', 'Forest')] %}
+                    <label class="swatch {{ value }}">
+                        <input type="radio" name="theme" value="{{ value }}"
+                               {% if values.theme == value %}checked{% endif %}>
+                        {{ label }}
+                    </label>
+                    {% endfor %}
+                </div>
+            </fieldset>
+            <hr>
+            <p class="hint">This saves an editable draft. You can return to change your words or add more memories.</p>
+            <p class="hint">After saving, open the draft preview to choose an opening date and seal it.</p>
+        </div>
+        <button class="button wide">Save draft {{ icon('arrow') }}</button>
+        <a class="back cancel-link" href="{{ url_for('view_capsule', capsule_id=capsule.id) if capsule else url_for('dashboard') }}">Cancel</a>
+    </aside>
+</form>
+{% endblock %}

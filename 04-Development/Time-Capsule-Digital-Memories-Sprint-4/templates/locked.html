@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<a class="back" href="{{ url_for('dashboard') }}">← Back to your collection</a>
+<section class="locked-page">
+    <div class="lock-medallion">{{ icon('clock') }}</div>
+    <p class="eyebrow">SOME THINGS ARE WORTH THE WAIT</p>
+    <h1>{{ capsule.title }}</h1>
+    <p>A little piece of your past, waiting for the right moment.</p>
+    <div class="countdown-grid" data-status-url="{{ url_for('capsule_status', capsule_id=capsule.id) }}" data-reload="true" role="timer" aria-label="Time until opening">
+        <div><strong data-unit="days">—</strong><span>Days</span></div>
+        <div><strong data-unit="hours">—</strong><span>Hours</span></div>
+        <div><strong data-unit="minutes">—</strong><span>Minutes</span></div>
+        <div><strong data-unit="seconds">—</strong><span>Seconds</span></div>
+    </div>
+    <p class="hint" data-countdown-message>Checking the opening time…</p>
+    <span class="open-date">Opens <time data-local-time="{{ capsule.unlock_at }}">{{ capsule.unlock_at|date }} (UTC date)</time></span>
+    <div class="locked-note">{{ icon('mail') }}<p>Your memories are sealed.<br>This page will open them when the server confirms it is time.</p></div>
+    <a class="button secondary" href="{{ url_for('view_capsule', capsule_id=capsule.id) }}">Check opening status</a>
+</section>
+{% endblock %}

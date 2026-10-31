@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<a class="back" href="{{ url_for('view_capsule', capsule_id=capsule.id) }}">← Back to your draft</a>
+<section class="panel seal-panel">
+    <p class="eyebrow">A DATE WITH YOUR FUTURE SELF</p>
+    <h1>Choose your someday.</h1>
+    <p class="wrap-title">{{ capsule.title }}</p>
+    <form method="post" id="seal-form">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <input type="hidden" name="unlock_at" id="unlock-at">
+        <label for="opening-time">Opening date and time
+            <input type="datetime-local" id="opening-time" required>
+        </label>
+        <p class="hint" id="timezone-label">Use the local time on this device.</p>
+        <div class="time-presets">
+            <button type="button" class="button secondary" data-minutes="2">In 2 minutes · try it</button>
+            <button type="button" class="button secondary" data-minutes="1440">Tomorrow</button>
+            <button type="button" class="button secondary" data-minutes="10080">In one week</button>
+        </div>
+        <div class="notice"><p>Once sealed, your message and attachments stay hidden until this time. You cannot edit, delete, or change the opening date of a sealed capsule.</p></div>
+        <label class="confirm-check">
+            <input type="checkbox" name="confirm" value="seal" required>
+            I have reviewed my draft and want to seal it.
+        </label>
+        <noscript><p class="flash error">Enable JavaScript to select your local opening time.</p></noscript>
+        <button class="button wide" id="seal-submit" disabled>Seal my capsule {{ icon('arrow') }}</button>
+    </form>
+</section>
+{% endblock %}
