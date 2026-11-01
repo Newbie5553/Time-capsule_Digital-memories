@@ -1,11 +1,11 @@
-# 📅 Sprint Review & Final Wrap-up Meeting | October 29, 2026
+# 📅 Daily Scrum Meeting | October 29, 2026
 
 ### 🚀 Time Capsule – Digital Memories for the Future
 
 **Application Name:** KeepSafe (Temporary)  
 **Course:** ITC 315 – Software Engineering  
-**Sprint:** Sprint 3 (Final Review & Project Wrap-up)  
-**Meeting Type:** Sprint 3 Review, Retrospective & Finalization  
+**Sprint:** Sprint 4 (Progress & Work Plan Phase)  
+**Meeting Type:** Sprint 4 Kickoff & Task Planning  
 **Meeting Status:** 🟢 Completed  
 
 ---
@@ -15,9 +15,9 @@
 | 📌 Detail | Information |
 |---|---|
 | 📅 Date | October 29, 2026 |
-| 🎯 Main Focus | Sprint 3 Review, Codebase Stabilization & Final Delivery Alignment |
+| 🎯 Main Focus | Transitioning to Sprint 4, Reviewing Previous Milestones & Planning US-19 & US-20 |
 | 💻 Application | KeepSafe |
-| 🔄 Sprint Status | 🟢 Completed / Ready for Final Release |
+| 🔄 Sprint Status | 🟡 In Progress (Sprint 4 Kickoff) |
 | 📁 Documentation | GitHub & Google Drive |
 
 ---
@@ -28,102 +28,70 @@
 |---|---|
 | Lima Wahedi | Product Owner |
 | Parasto Noorzaei | Scrum Master |
-| Mohammad Ibrahim Fathi | Developer |
 | Hamid Mirkhil Wardak | Developer |
+| Mohammad Ibrahim Fathi | Developer |
 
 ---
 
 ## 🎯 Meeting Objectives
 
-- Review Sprint 3 developer updates, verification outcomes, and final code stability.
-- Evaluate backend implementation details and security workflows.
-- Finalize documentation consistency across the GitHub repository.
-- Plan the final project presentation and demo session.
+- Review and build upon the stability achieved in previous development phases (capsule creation, sealing mechanisms, and countdowns).
+- Outline and detail the scope for Sprint 4, placing primary focus on controlled sharing (US-19) and title search (US-20).
+- Align development tasks, sharing interfaces, and access verification protocols before heading into the October 30 session.
 
 ---
 
 ## 👩‍💼 01 | Product Owner Update – Lima Wahedi
 
-### ✅ Work Completed & Final Backlog Alignment
-
-- Confirmed that all core user stories and acceptance criteria for the project deliverables are successfully met.
-- Finalized product backlog ordering for the final repository release.
-
-### 🔄 Current Focus
-
-Preparing the final release package and ensuring all documentation aligns with university submission standards.
+### 📋 Requirements & Backlog Alignment
+- **Requirement Clarification:** Lima reviewed and clarified the precise requirements needed for the new Sprint 4 features to ensure seamless progression from earlier milestones.
+- **Acceptance Criteria Evaluation:** Evaluated the delivered system behavior against initial acceptance criteria to guarantee complete alignment with overall project objectives.
+- **Backlog Management:** Updated the product backlog to officially reflect the kickoff of Sprint 4 tasks.
 
 ---
 
 ## 👨‍💻 02 | Developer Update – Hamid Mirkhil Wardak
 
-### 🔄 Review & System Stability Update
-
-| Topic / Item | Status / Details |
-|---|---|
-| Sprint 3 Review & Verification Outcomes | ✅ Completed & Verified |
-| Security & Access Control Validation | ✅ Stable |
-| Documentation Consistency Check | ✅ Synchronized |
-
-### 💡 Key Development Progress
-
-- **Review:** Shared final verification results, confirming that all access restrictions, time-lock behaviors, and security safeguards operate correctly.
-- **Documentation:** Ensured that repository documentation, system diagrams, and code comments are fully synchronized with the working application.
+### 🔄 Frontend & Sharing Interface Plan
+- **Sprint 4 Interface Scope:** Outlined the frontend implementation plan for US-19 (controlled sharing with registered accounts and "Shared with me" view).
+- **Access Control Views:** Focused on designing clear UI elements allowing capsule owners to manage and remove recipient access safely.
+- **Continuity Check:** Ensured that user interaction flows connect smoothly with the existing dashboard and sealing features established in prior sessions.
 
 ---
 
 ## 👨‍💻 03 | Developer Update – Mohammad Ibrahim Fathi
 
-### ⚙️ Backend & Architecture Finalization
-
-| Feature / Component | Status |
-|---|---|
-| Backend Database Integrity | ✅ Verified |
-| Routing & Security Controllers | ✅ Stable |
-| Final Code Cleanup | ✅ Completed |
-
-### 💡 Key Development Progress
-
-Ibrahim reviewed backend stability, ensuring database queries, session management, and route protections are fully optimized and ready for the final project submission.
+### ⚙️ Backend & Search Logic Plan
+- **Backend Architecture for US-20:** Detailed the plan for implementing capsule title search while strictly preserving data ownership.
+- **Security Boundaries:** Coordinated backend checks to prevent unrelated users from accessing private messages or attachments.
+- **Data Integrity:** Verified that database routing and session security support the upcoming sharing and search workflows without breaking prior mechanics.
 
 ---
 
 ## 👩‍💼 04 | Scrum Master Update – Parasto Noorzaei
 
-### 📌 Coordination & Final Demo Planning
-
-- Facilitated the final review and retrospective discussion.
-- Scheduled the final project presentation and live demo session for October 31, 2026.
-
----
-
-## 📈 Sprint Progress Snapshot
-
-| Category | Progress |
-|---|---|
-| Core Implementation | 🟢 Completed |
-| Testing & Verification | 🟢 Verified |
-| Documentation Alignment | 🟢 Completed |
-| Final Presentation Prep | 🟡 Scheduled |
-
-> **Sprint Update:** The core development and verification phases are successfully wrapped up. The team is fully prepared for the final project presentation and demo.
+### 📌 Coordination & Process Management
+- **Progress Tracking:** Maintained comprehensive progress records and established the baseline for Sprint 4 tracking.
+- **Action Coordination:** Coordinated follow-up actions between developers and the product owner to ensure smooth task execution ahead of the October 30 meeting.
+- **Repository Readiness:** Monitored the initial documentation flow to keep GitHub records structured and synchronized.
 
 ---
 
 ## 💬 Discussion & Decisions
 
-1. **Project Completion:** Core features, authentication, and database integrations are fully stable.
-2. **Final Presentation:** Scheduled a final wrap-up and demo session for October 31, 2026, to conclude the project lifecycle.
+1. **Sprint 4 Scope Locked:** The team agreed to focus strictly on US-19 (sharing unlocked capsules) and US-20 (title search) as the core deliverables for this phase.
+2. **Security Boundaries:** Re-confirmed that sharing is restricted strictly to *unlocked* memories, maintaining full protection for locked capsules.
 
 ---
 
 ## 📋 Action Items
 
-| Task | Responsible | Status |
+| Task Description | Responsible | Status |
 |---|---|---|
-| Finalize repository file structure and README | All Team Members | 🔄 In Progress |
-| Prepare final presentation and demo flow | All Team Members | ⏳ Planned |
-| Upload final meeting minutes and recording links | Parasto Noorzaei | 🔄 In Progress |
+| Implement frontend sharing interface and access views | Hamid Mirkhil Wardak | 🔄 In Progress |
+| Implement backend title search logic and security rules | Mohammad Ibrahim Fathi | 🔄 In Progress |
+| Review delivered behavior against acceptance criteria | Product Owner (Lima) | 🔄 In Progress |
+| Maintain progress records and coordinate follow-up | Scrum Master (Parasto) | 🔄 In Progress |
 
 ---
 
@@ -140,18 +108,7 @@ Ibrahim reviewed backend stability, ensuring database queries, session managemen
 
 ## 📅 Next Meeting
 
-**Planned Date:** October 31, 2026 (Final Project Demo & Wrap-up)
+**Planned Date:** October 30, 2026 (Daily Scrum & Sprint 4 Detailed Planning)
 
-**Agenda:**
-- Conduct the final end-to-end live demonstration of the application.
-- Review overall project achievements and lessons learned.
-- Formally conclude the project lifecycle.
-
----
-
-### ✅ Meeting Conclusion
-
-The team successfully concluded the primary development and verification cycles, locking in code stability and aligning on the final project presentation.
-
-**Prepared by:** Parasto Noorzaei – Scrum Master  
+**Prepared by:** Parasto Noorzaei (Scrum Master)  
 **Project:** Time Capsule – Digital Memories for the Future
