@@ -3,7 +3,7 @@
 
 ## ⏳ Time Capsule – Digital Memories for the Future
 
-**Application Name:** Time-Capsule-Digital-Memories 
+**Web Name:** Time-Capsule-Digital-Memories 
 **Course:** ITC 315 – Software Engineering  
 **Methodology:** Agile Scrum  
 **Sprint:** Sprint 2  
@@ -16,7 +16,7 @@
 
 ## 🎯 01 | Sprint Goal
 
-The main goal of Sprint 2 was to extend the KeepSafe application beyond basic user authentication by implementing private time capsule creation, draft management, file attachments, and security controls.
+The main goal of Sprint 2 was to extend the Time Capsule web beyond basic user authentication by implementing private time capsule creation, draft management, file attachments, and security controls.
 
 **Sprint Goal Status:** ✅ Successfully Achieved
 
@@ -28,7 +28,7 @@ The main goal of Sprint 2 was to extend the KeepSafe application beyond basic us
 |---|---|---|
 | Lima Wahedi | Product Owner | Maintain backlog, review deliverables, verify features, and approve completed work |
 | Parasto Noorzaei | Scrum Master | Facilitate Scrum meetings, coordinate sprint activities, and monitor progress |
-| Mohammad Ibrahim Fathi | Developer | Backend development, database integration, and application functionality |
+| Mohammad Ibrahim Fathi | Developer | Backend development, database integration, and Web functionality |
 | Hamid Mirkhil Wardak | Developer | Frontend development, HTML templates, and interface improvements |
 
 ---
@@ -161,7 +161,7 @@ The following deliverables were completed:
 5. Draft deletion with confirmation
 6. Database integration for capsules and attachments
 7. Security and access-control implementation
-8. Updated application source code
+8. Updated Web source code
 9. Sprint 2 README and technical documentation
 10. Completed functional verification
 
@@ -227,5 +227,5 @@ The specific Sprint 3 tasks and deliverables will be documented separately in `S
 
 **Prepared and Maintained By:** Lima Wahedi  
 **Role:** Product Owner  
-**Project:** KeepSafe – Time Capsule  
+**Project: Time Capsule  
 **Methodology:** Agile Scrum
