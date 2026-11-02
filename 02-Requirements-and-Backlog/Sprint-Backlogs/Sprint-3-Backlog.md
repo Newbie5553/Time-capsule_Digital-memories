@@ -37,6 +37,20 @@ The goal of Sprint 3 is to introduce time-based capsule management, allowing use
 
 *These are Sprint task IDs. Corresponding Product Backlog user-story IDs should be linked after checking the Product Backlog.*
 
+## 🔗 Sprint 3 — User Story Traceability
+
+| Sprint Tasks | Related Feature | Product Backlog Reference |
+|---|---|---|
+| S3-01 | Set future capsule opening date and time | Match corresponding US ID |
+| S3-02 | Seal a capsule after confirmation | Match corresponding US ID |
+| S3-03 | Prevent early opening of sealed capsules | Match corresponding US ID |
+| S3-04 | Display a live countdown | Match corresponding US ID |
+| S3-05 | Unlock capsules when the scheduled time arrives | Match corresponding US ID |
+| S3-06 | Preserve existing user accounts and drafts | Supporting compatibility task |
+| S3-07 | Test sealing and unlocking functionality | Supporting testing task |
+
+**Traceability Note:** Each feature should reference its matching User Story ID in the Product Backlog. Testing and compatibility activities support the implementation of these stories.
+
 ---
 
 ## 💻 03 | Development Deliverables
