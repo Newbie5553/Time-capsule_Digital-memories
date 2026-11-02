@@ -59,18 +59,15 @@ The main goal of Sprint 2 was to extend the KeepSafe application beyond basic us
 
 ## 🔗 Sprint 2 — User Story Traceability
 
-The following table connects Sprint 2 development tasks with the relevant requirements in the Product Backlog.
-
 | Sprint Tasks | Related Feature | Product Backlog Reference |
 |---|---|---|
-| S2-01 to S2-03 | Create private time capsules, add titles, messages, and cover colors | Match corresponding US IDs |
-| S2-04 to S2-05 | Upload image and video attachments | Match corresponding US IDs |
-| S2-06 to S2-09 | View, edit, download, and delete drafts and attachments | Match corresponding US IDs |
-| S2-10 to S2-12 | Access controls, password security, and database integration | Supporting technical tasks |
-| S2-13 to S2-15 | Testing, verification, and Product Owner acceptance | Supporting quality and acceptance tasks |
+| S2-01 to S2-03 | Create private capsules, titles, messages, and cover colors | Confirm matching US ID |
+| S2-04 to S2-05 | Upload images and videos | Confirm matching US ID |
+| S2-06 to S2-09 | View, edit, download, and delete drafts and attachments | Confirm matching US ID |
+| S2-10 to S2-13 | Security controls and database integration | Supporting technical tasks |
+| S2-14 to S2-15 | Testing and Product Owner acceptance | Supporting acceptance tasks |
 
-**Traceability Note:** Sprint task IDs (S2-01 to S2-15) identify development activities. User Story IDs (US-01 to US-20) identify user requirements in the Product Backlog.
-
+**Note:** Sprint task IDs identify development work. User Story IDs must match the Product Backlog.
 
 ---
 
