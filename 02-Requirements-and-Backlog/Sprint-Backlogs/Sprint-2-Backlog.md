@@ -3,7 +3,7 @@
 
 ## ⏳ Time Capsule – Digital Memories for the Future
 
-**Application Name:** KeepSafe  
+**Application Name:** Time-Capsule-Digital-Memories 
 **Course:** ITC 315 – Software Engineering  
 **Methodology:** Agile Scrum  
 **Sprint:** Sprint 2  
