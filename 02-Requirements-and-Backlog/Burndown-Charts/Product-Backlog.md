@@ -27,29 +27,38 @@ covering the main features of the Time Capsule system.
 
 ## 📊 20 Prioritized User Stories
 
+
+## 🔗 20 Prioritized User Stories
+
 | ID | User Story | Priority | Status |
 |---|---|---|---|
-| US-01 | As a user, I want to register an account so I can save my memories securely. | 🔴 High | To Do |
-| US-02 | As a user, I want to log in so I can access my personal capsules. | 🔴 High | To Do |
-| US-03 | As a user, I want to log out so I can protect my account. | 🔴 High | To Do |
-| US-04 | As a user, I want to create a time capsule so I can preserve memories. | 🔴 High | To Do |
-| US-05 | As a user, I want to write messages inside my capsule so I can read them in the future. | 🔴 High | To Do |
-| US-06 | As a user, I want to choose an unlock date so my capsule opens at the right time. | 🔴 High | To Do |
-| US-07 | As a user, I want my capsule to remain locked before its unlock date so my memories stay private. | 🔴 High | To Do |
-| US-08 | As a user, I want to view my capsules on a dashboard so I can manage them easily. | 🔴 High | To Do |
-| US-09 | As a user, I want to upload photos so I can preserve visual memories. | 🟡 Medium | To Do |
-| US-10 | As a user, I want to upload videos so I can save special moments. | 🟡 Medium | To Do |
-| US-11 | As a user, I want to edit an unlocked draft capsule so I can correct mistakes. | 🟡 Medium | To Do |
-| US-12 | As a user, I want to delete my own capsules so I can manage unwanted content. | 🟡 Medium | To Do |
-| US-13 | As a user, I want to see a countdown so I know when my capsule will unlock. | 🟡 Medium | To Do |
-| US-14 | As a user, I want to receive an unlock notification so I know when my memories are available. | 🟡 Medium | To Do |
-| US-15 | As a user, I want to recover my password so I can regain account access. | 🟡 Medium | To Do |
-| US-16 | As a user, I want to open my capsule after its unlock date so I can revisit my memories. | 🟡 Medium | To Do |
-| US-17 | As a user, I want to give my capsule a title so I can recognize it easily. | 🟢 Low | To Do |
-| US-18 | As a user, I want to customize my capsule appearance so it feels personal. | 🟢 Low | To Do |
-| US-19 | As a user, I want to share an unlocked capsule with authorized people so we can revisit memories together. | 🟢 Low | To Do |
-| US-20 | As a user, I want to search my capsules by title so I can find memories quickly. | 🟢 Low | To Do |
+| US-01 | As a user, I want to register an account so I can save my memories securely. | 🔴 High | ✅ Completed |
+| US-02 | As a user, I want to log in so I can access my personal capsules. | 🔴 High | ✅ Completed |
+| US-03 | As a user, I want to log out so I can protect my account. | 🔴 High | ✅ Completed |
+| US-04 | As a user, I want to create a time capsule so I can preserve memories. | 🔴 High | ✅ Completed |
+| US-05 | As a user, I want to write messages inside my capsule so I can read them in the future. | 🔴 High | ✅ Completed |
+| US-06 | As a user, I want to choose an unlock date so my capsule opens at the right time. | 🔴 High | ✅ Completed |
+| US-07 | As a user, I want my capsule to remain locked before its unlock date so my memories stay private. | 🔴 High | ✅ Completed |
+| US-08 | As a user, I want to view my capsules on a dashboard so I can manage them easily. | 🔴 High | ✅ Completed |
+| US-09 | As a user, I want to upload photos so I can preserve visual memories. | 🟡 Medium | ✅ Completed |
+| US-10 | As a user, I want to upload videos so I can save special moments. | 🟡 Medium | ✅ Completed |
+| US-11 | As a user, I want to edit an unlocked draft capsule so I can correct mistakes. | 🟡 Medium | ✅ Completed |
+| US-12 | As a user, I want to delete my own capsules so I can manage unwanted content. | 🟡 Medium | ✅ Completed |
+| US-13 | As a user, I want to see a countdown so I know when my capsule will unlock. | 🟡 Medium | ✅ Completed |
+| US-14 | As a user, I want to receive an unlock notification so I know when my memories are available. | 🟡 Medium | ⬜ Not Verified |
+| US-15 | As a user, I want to recover my password so I can regain account access. | 🟡 Medium | ⬜ Not Verified |
+| US-16 | As a user, I want to open my capsule after its unlock date so I can revisit my memories. | 🟢 Low | ✅ Completed |
+| US-17 | As a user, I want to give my capsule a title so I can recognize it easily. | 🟢 Low | ✅ Completed |
+| US-18 | As a user, I want to customize my capsule appearance so it feels personal. | 🟢 Low | ✅ Completed |
+| US-19 | As a user, I want to share an unlocked capsule with authorized people so we can revisit memories together. | 🟢 Low | 🟡 Pending Acceptance |
+| US-20 | As a user, I want to search my capsules by title so I can find memories quickly. | 🟢 Low | 🟡 Pending Acceptance |
 
+### 📌 Product Backlog Status Notes
+
+- **Completed:** Reported as implemented in Sprint 1–3 documentation; Product Owner have confirmed the successful verification.
+- **Not Verified:** No confirmed completion evidence currently recorded.
+- **Pending Acceptance:** Sprint 4 features delivered by developers; final Product Owner acceptance must be confirmed.
+  
 ---
 
 ## 📈 Feature Priority Analysis
