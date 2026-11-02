@@ -1,4 +1,4 @@
-# Keepsake — Sprint 1
+# Time Capsule Digital Memories sprint 1
 
 A separate teaching and demonstration version of the Keepsake web application. It contains the welcome page, registration, login, logout, and a basic personal dashboard.
 
