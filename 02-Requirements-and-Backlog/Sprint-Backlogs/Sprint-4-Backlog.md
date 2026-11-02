@@ -53,6 +53,20 @@ Extend the Time Capsule application by implementing secure memory sharing and ti
 | S4-09 | Document automated tests and manual testing instructions | Development Team | Completed |
 | S4-10 | Demonstrate features and confirm Product Owner acceptance | Scrum Team / Product Owner | Pending verification |
 
+
+## 🔗 Sprint 4 — User Story Traceability
+
+| Sprint Tasks | User Story ID | Related Requirement |
+|---|---|---|
+| S4-01 | US-19, US-20 | Review and prioritize Sprint 4 requirements |
+| S4-02 to S4-05 | US-19 | Memory sharing, recipient dashboard, read-only access, and permissions |
+| S4-06 | US-20 | Search time capsules by title |
+| S4-07 | US-19 | Document memory-sharing interactions |
+| S4-08 | US-19, US-20 | Upload completed development and documentation |
+| S4-09 to S4-10 | US-19, US-20 | Testing, demonstration, and Product Owner acceptance |
+
+**Sprint 4 Result:** The development deliverables for US-19 and US-20 were completed. Final acceptance should reflect the team's recorded verification results.
+
 ---
 
 ## 📦 05 | Sprint Deliverables
