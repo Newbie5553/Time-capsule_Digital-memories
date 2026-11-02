@@ -37,19 +37,21 @@ The goal of Sprint 3 is to introduce time-based capsule management, allowing use
 
 *These are Sprint task IDs. Corresponding Product Backlog user-story IDs should be linked after checking the Product Backlog.*
 
-## 🔗 Sprint 3 — User Story Traceability
+## 🔗 Sprint 3 – User Story Traceability
+
+The following table connects Sprint 3 development tasks with the corresponding user stories in the Product Backlog.
 
 | Sprint Tasks | Related Feature | Product Backlog Reference |
 |---|---|---|
-| S3-01 | Set future capsule opening date and time | Match corresponding US ID |
-| S3-02 | Seal a capsule after confirmation | Match corresponding US ID |
-| S3-03 | Prevent early opening of sealed capsules | Match corresponding US ID |
-| S3-04 | Display a live countdown | Match corresponding US ID |
-| S3-05 | Unlock capsules when the scheduled time arrives | Match corresponding US ID |
-| S3-06 | Preserve existing user accounts and drafts | Supporting compatibility task |
-| S3-07 | Test sealing and unlocking functionality | Supporting testing task |
+| S3-01 | Set future capsule opening date and time | US-06 |
+| S3-02 | Seal a capsule after confirmation | US-07 |
+| S3-03 | Prevent early opening of sealed capsules | US-07 |
+| S3-04 | Display a live countdown | US-13 |
+| S3-05 | Unlock capsules when the scheduled time arrives | US-16 |
+| S3-06 | Preserve existing user accounts and drafts | US-01, US-02, US-11 (supporting compatibility task) |
+| S3-07 | Test sealing and unlocking functionality | Verification of US-06, US-07, US-13, US-16 |
 
-**Traceability Note:** Each feature should reference its matching User Story ID in the Product Backlog. Testing and compatibility activities support the implementation of these stories.
+**Traceability Note:** Sprint task IDs (S3-01 to S3-07) identify development activities. User Story IDs refer to the requirements defined in the Product Backlog.
 
 ---
 
