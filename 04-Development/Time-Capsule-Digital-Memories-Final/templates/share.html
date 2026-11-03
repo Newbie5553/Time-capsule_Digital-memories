@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<a class="back" href="{{ url_for('view_capsule', capsule_id=capsule.id) }}">← Back to this memory</a>
+<div class="page-heading"><div><p class="eyebrow">GOOD MEMORIES ARE MEANT TO BE SHARED</p><h1>Let someone in<span class="gold">.</span></h1><p class="wrap-title">Share “{{ capsule.title }}” with someone who matters.</p></div></div>
+<div class="sharing-layout">
+<section class="panel sharing-form">
+    <h2>Share a memory, even before it opens</h2><p class="hint">Use the email address they registered with on this installation. They will find this capsule in Shared with me.</p>
+    <form action="{{ url_for('share_capsule', capsule_id=capsule.id) }}" method="post">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <label for="recipient-email">Recipient email</label>
+        <input id="recipient-email" name="email" type="email" value="{{ email }}" maxlength="254" required autocomplete="off" placeholder="someone@example.com" aria-describedby="share-help">
+        <p id="share-help" class="hint">If locked, the recipient sees only the title and opening date until it unlocks. After that they can read and download, but never edit or reshare.</p>
+        <button class="button" type="submit">{{ icon('people') }} Share memory</button>
+    </form>
+</section>
+<aside class="panel permission-note"><span class="eyebrow">YOUR STORY STAYS YOURS</span><h2>A shared moment.<br>An unchanged memory.</h2><p>Only people you choose can read it through the website.</p><p class="hint">Email invitations are queued and sent when SMTP is configured. Recipients must already have an account. A localhost link is accessible only on this computer.</p></aside>
+</div>
+<section class="panel shared-people"><h2>People with access <span class="count-chip">{{ shares|length }}</span></h2>
+{% for person in shares %}
+<div class="person-row"><div><strong>{{ person.name }}</strong><p>{{ person.email }}</p><small>Shared {{ person.created_at|date }} · Read-only</small></div>
+<form method="post" action="{{ url_for('revoke_share', capsule_id=capsule.id, share_id=person.id) }}">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <label class="revoke-confirm"><input type="checkbox" name="confirm" value="revoke" required> Confirm removal</label><button class="delete-button" type="submit">Remove access</button>
+</form></div>
+{% else %}<p class="hint">This memory is still just yours. Add a registered recipient above to share it.</p>{% endfor %}
+<p class="hint">Removing access blocks future requests. It cannot erase copies someone has already downloaded.</p>
+</section>
+{% endblock %}

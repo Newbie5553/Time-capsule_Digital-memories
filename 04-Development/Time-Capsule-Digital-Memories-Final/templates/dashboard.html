@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="page-heading">
+    <div>
+        <p class="eyebrow">YOUR PERSONAL MEMORY SPACE</p>
+        <h1>Hello, {{ g.user.name.split()[0] }}<span class="gold">.</span></h1>
+        <p>Some memories deserve a future.</p>
+    </div>
+    <a class="button" href="{{ url_for('edit_capsule') }}">Create a capsule {{ icon('arrow') }}</a>
+</div>
+<section class="hero">
+    <div class="hero-copy">
+        <span class="hero-tag">A GIFT TO YOUR FUTURE SELF</span>
+        <h2>Save a moment.<br>Make it yours.</h2>
+        <p>The words, the people, the little things.<br>Save a draft, then seal it for a date that matters.</p>
+        <a class="button cream" href="{{ url_for('edit_capsule') }}">Start a new memory {{ icon('arrow') }}</a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="star s1">✦</span>
+        <span class="star s2">✧</span>
+        <div class="letter"><span>Dear future me,</span><i></i><i></i><i></i><b>with love, today.</b></div>
+        <div class="envelope"><div class="flap"></div><span>TC</span></div>
+        <span class="art-caption">SOME THINGS ARE WORTH REMEMBERING</span>
+    </div>
+</section>
+<section>
+    <div class="section-heading">
+        <h2>Your collection <span>{{ capsules|length }}</span></h2>
+        <p class="hint">Drafts, sealed memories, and moments ready to open</p>
+    </div>
+    <div class="stats">
+        <div>{{ icon('mail') }}<span>Drafts<strong>{{ counts.draft }}</strong></span></div>
+        <div>{{ icon('clock') }}<span>Sealed<strong>{{ counts.sealed }}</strong></span></div>
+        <div>{{ icon('box') }}<span>Ready to open<strong>{{ counts.ready }}</strong></span></div>
+    </div>
+    <form class="collection-search" action="{{ url_for('dashboard') }}" method="get" role="search">
+        <label for="title-search">Find a memory by title</label>
+        <div class="search-controls">
+            <input id="title-search" type="search" name="q" value="{{ query }}" maxlength="100" placeholder="Try Graduation, birthdays, a letter…">
+            <button class="button" type="submit">Search</button>
+            {% if query %}<a class="text-link" href="{{ url_for('dashboard') }}">Clear</a>{% endif %}
+        </div>
+    </form>
+    {% if query %}<p class="hint" role="status">{{ capsules|length }} matching {{ 'memory' if capsules|length == 1 else 'memories' }} out of {{ total_count }} for “{{ query }}”.</p>{% endif %}
+    {% if query and not capsules %}
+    <div class="empty-collection"><h3>No memories found</h3><p>Try another title or clear your search to see your collection.</p></div>
+    {% endif %}
+    <div class="capsule-grid">
+        {% for capsule in capsules %}
+        <a class="capsule-card" href="{{ url_for('view_capsule', capsule_id=capsule.id) }}">
+            <div class="card-art {{ capsule.theme }}">
+                <span class="badge {{ capsule.state }}">{{ {"draft": "Draft", "sealed": "Sealed", "ready": "Ready to open"}[capsule.state] }}</span>
+                <div class="mini-envelope">{{ icon('mail') }}</div>
+                <span class="card-star">✧</span>
+            </div>
+            <div class="card-body">
+                <small>A MOMENT YOU SAVED</small>
+                <h3>{{ capsule.title }}</h3>
+                <p>{{ icon('clock') }} Updated {{ capsule.updated_at|date }}</p>
+                <div class="card-bottom">
+                    {% if capsule.state == 'sealed' %}
+                    <span data-status-url="{{ url_for('capsule_status', capsule_id=capsule.id) }}">Checking countdown…</span>
+                    {% else %}
+                    <span>{{ 'Open your memory' if capsule.state == 'ready' else 'Continue your draft' }}</span>
+                    {% endif %}
+                    {{ icon('arrow') }}
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+        <a class="new-card" href="{{ url_for('edit_capsule') }}">
+            <span aria-hidden="true">+</span>
+            <h3>{{ 'Your first memory starts here' if not total_count else 'There’s more to remember' }}</h3>
+            <p>A letter, a photo, a little piece of now.</p>
+            <strong>Create a capsule →</strong>
+        </a>
+    </div>
+    <p class="hint sprint-note">Drafts can be edited. Sealed capsules open only when their chosen time arrives.</p>
+</section>
+<section class="panel account-panel">
+    <h3>{{ icon('people') }} Your account</h3>
+    <p>{{ g.user.name }} · {{ g.user.email }}</p>
+    <form action="{{ url_for('logout') }}" method="post">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <button class="button secondary">Sign out</button>
+    </form>
+</section>
+{% endblock %}
