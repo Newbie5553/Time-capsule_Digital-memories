@@ -101,7 +101,7 @@
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/1x8QI3EOJ4ffFJFa7TMwMiGvaEUWG9c70/view?usp=drivesdk) |
-| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/1clHl1-GKu_2G5_sLiqvgREYp7Zja4ShGeIjki7Avzms/edit?usp=sharing)|
 | 💻 Sprint 5 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
