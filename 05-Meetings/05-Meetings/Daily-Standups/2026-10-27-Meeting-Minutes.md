@@ -2,7 +2,7 @@
 
 ### 🚀 Time Capsule – Digital Memories for the Future
 
-**Application Name:** KeepSafe (Temporary)  
+**Application Name:** Time Capsole Digital Memory  
 **Course:** ITC 315 – Software Engineering  
 **Sprint:** Sprint 2 (Progress Tracking & Testing Phase)  
 **Meeting Type:** Daily Scrum & Feature Testing Review  
@@ -64,7 +64,7 @@ Ibrahim demonstrated the current version of the application.
 
 | Feature / Action | Status |
 |---|---|
-| Application Renaming (KeepSafe updates) | ✅ Implemented |
+| Application Renaming (Time Cupsol Digital Memory updates) | ✅ Implemented |
 | New Time Capsule Creation | ✅ Demonstrated |
 | Memory Initiation & Time Functionality | ✅ Working |
 | Capsule Deletion Options | ✅ Working |
@@ -140,7 +140,8 @@ Hamid discussed the ongoing troubleshooting for the time-lock mechanism and outl
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | *[ View Recording] https://drive.google.com/file/d/1FaK-z-_4FAocPqFAFxNUKlYcda452CB-/view?usp=sharing)]* |
-| 📄 GitHub Documentation | [View Repository](https://github.com/Newbie5553/Time-capsule_Digital-memories) |
+| 📄 Meeting Minutes | [View Minutes]([https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0](https://docs.google.com/document/d/1zOVb14xMXSTYsalj3ZB0tX7e9Zojr8T8EjtsDug1TQY/edit?usp=sharing))) |
+| 💻 Sprint 1 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
 
