@@ -2,7 +2,7 @@
 
 ### 🚀 Time Capsule – Digital Memories for the Future
 
-**Application Name:** KeepSafe (Temporary)  
+**Application Name:** Time Capsule Digital Memory (Temporary)  
 **Course:** ITC 315 – Software Engineering  
 **Sprint:** Sprint 4 (Final Sprint & Finalization)  
 **Meeting Type:** Final Updates and Bug Fixes  
@@ -16,7 +16,7 @@
 |---|---|
 | 📅 Date | November 2, 2026 |
 | 🎯 Main Focus | Final Feature Updates, Bug Fixes, and Pre-Submission Verification |
-| 💻 Application | KeepSafe |
+| 💻 Application | Time Capsule Digital Memory |
 | 🔄 Sprint Status | 🟡 In Progress (Final Sprint) |
 | 📁 Documentation | GitHub & Google Drive |
 
@@ -124,7 +124,8 @@
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/1RmqFtgtUQbLHzuUmSbD-i-59HXFYus66/view?usp=drive_link) |
-| 📄 GitHub Documentation | [View Repository](https://github.com/Newbie5553/Time-capsule_Digital-memories) |
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
+| 💻 Sprint 4 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the project repository structure for progress tracking and final submission.
 
