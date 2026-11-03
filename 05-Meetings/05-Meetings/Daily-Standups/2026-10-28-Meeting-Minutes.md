@@ -134,7 +134,7 @@ Ibrahim explained the backend architecture supporting the verification phase, co
 |---|---|
 | 🎬 Meeting Recording | *[https://drive.google.com/file/d/16YEBwlcUAi9WDX2gknJepOY_W_4f5p_D/view?usp=sharing]* |
 | 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/1TTWDKLVDBlgx6cZNWjXi7GSSMQQgdb2UtxSwygAWg-0/edit?usp=sharing)) |
-| 💻 Sprint 1 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
+| 💻 Sprint 3 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
 
 ---
