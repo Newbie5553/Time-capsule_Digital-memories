@@ -137,7 +137,7 @@ Walked the team through a full live demo, showing how users can create a time ca
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/14Z6P-8WDqHR44bSmdbNhh4NP2cG6eGKR/view?usp=sharing) |
-| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/16tYEE_lQhC2I7FhTY--81qcTPYjg0l4lnCEzk0GPanA/edit?usp=sharing)) |
 | 💻 Sprint 2 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
