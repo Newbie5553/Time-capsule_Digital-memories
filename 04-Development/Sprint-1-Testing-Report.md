@@ -1,5 +1,5 @@
 
-# 🧪 KeepSafe | Sprint 1 Testing Report
+# 🧪 Time Capsule | Sprint 1 Testing Report
 
 ### Time Capsule – Digital Memories for the Future
 
@@ -14,7 +14,7 @@
 ## 🎯 01 | Testing Objective
 
 The purpose of this report is to track the
-testing progress of the KeepSafe application.
+testing progress of the TIme capsule application.
 
 Our goal is to check whether the developed
 features work correctly and meet the
