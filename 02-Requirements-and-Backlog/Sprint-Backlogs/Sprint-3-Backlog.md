@@ -3,7 +3,7 @@
 
 ## ⏳ Time Capsule – Digital Memories for the Future
 
-**Application:** KeepSafe  
+**Application:** Timep Capsule   
 **Course:** ITC 315 – Software Engineering  
 **Methodology:** Agile Scrum  
 **Sprint:** Sprint 3  
@@ -109,7 +109,7 @@ These diagrams support documentation of the application's interactions and workf
 
 ### Development Summary
 
-Sprint 3 extends KeepSafe from private capsule storage to time-controlled memory preservation.
+Sprint 3 extends Time capsule from private capsule storage to time-controlled memory preservation.
 
 The development README documents the implementation of scheduling, sealing, countdowns, and unlocking.
 
@@ -145,5 +145,5 @@ The development README documents the implementation of scheduling, sealing, coun
 
 **Prepared By:** Lima Wahedi  
 **Role:** Product Owner  
-**Project:** KeepSafe – Digital Time Capsule
+**Project:** Time Capsule – Digital Time Capsule
 
