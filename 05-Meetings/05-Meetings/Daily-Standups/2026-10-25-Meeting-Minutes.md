@@ -103,7 +103,7 @@
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/1jZQma_HQLRrU2SQHU6uQxmYD1U8kGAaf/view?usp=drive_link) |
-| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/1Rb3fDZUujCq5XW_UPzzb8W9A6A4komLGIxyU6uitSmA/edit?usp=sharing)) |
 | 💻 Sprint 2 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 ---
 
