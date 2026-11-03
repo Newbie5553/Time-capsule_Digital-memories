@@ -102,7 +102,7 @@
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/1x8QI3EOJ4ffFJFa7TMwMiGvaEUWG9c70/view?usp=drivesdk) |
 | 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0)) |
-| 💻 Sprint 4 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
+| 💻 Sprint 5 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
 
