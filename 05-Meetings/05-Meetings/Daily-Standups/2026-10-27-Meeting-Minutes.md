@@ -139,7 +139,7 @@ Hamid discussed the ongoing troubleshooting for the time-lock mechanism and outl
 
 | Resource | Link |
 |---|---|
-| 🎬 Meeting Recording | *[  ]* |
+| 🎬 Meeting Recording | *[ View Recording] https://drive.google.com/file/d/1FaK-z-_4FAocPqFAFxNUKlYcda452CB-/view?usp=sharing)]* |
 | 📄 GitHub Documentation | [View Repository](https://github.com/Newbie5553/Time-capsule_Digital-memories) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
