@@ -2,7 +2,7 @@
 
 ### 🚀 Time Capsule – Digital Memories for the Future
 
-**Application Name:** KeepSafe (Temporary)  
+**Application Name:** Time Capsule Digital Memory 
 **Course:** ITC 315 – Software Engineering  
 **Sprint:** Sprint 2 (Core Architecture & Demo Phase)  
 **Meeting Type:** Sprint Review, System Documentation & Live Demo  
@@ -16,7 +16,7 @@
 |---|---|
 | 📅 Date | October 26, 2026 |
 | 🎯 Main Focus | System Documentation, Backend Progress & Live Website Demo |
-| 💻 Application | KeepSafe |
+| 💻 Application | Time Capsule Digital Memory |
 | 🔄 Sprint Status | 🟡 In Progress |
 | 📁 Documentation | GitHub & Google Drive |
 
