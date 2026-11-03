@@ -16,7 +16,7 @@
 |---|---|
 | 📅 Date | October 28, 2026 |
 | 🎯 Main Focus | Sprint 3 Verification Plan & Backend Contribution Review |
-| 💻 Application | KeepSafe |
+| 💻 Application | Time Capsule Digital Memory |
 | 🔄 Sprint Status | 🟡 In Progress (Verification & Testing) |
 | 📁 Documentation | GitHub & Google Drive |
 
