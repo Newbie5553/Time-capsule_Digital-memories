@@ -4,7 +4,7 @@
 
 **Application Name:** KeepSafe (Temporary)  
 **Course:** ITC 315 – Software Engineering  
-**Sprint:** Sprint 5 (Final Sprint & Finalization)  
+**Sprint:** Sprint 4 (Final Sprint & Finalization)  
 **Meeting Type:** Final Updates and Bug Fixes  
 **Meeting Status:** 🟢 Completed  
 
@@ -132,7 +132,7 @@
 
 **Main Focus:** Complete the remaining feature updates, verify all required functionalities, and finalize project documentation.
 
-**Completion Criteria:** Sprint 5 will be considered complete after the updated features have been checked and the final project documentation is ready.
+**Completion Criteria:** Sprint 4 will be considered complete after the updated features have been checked and the final project documentation is ready.
 
 ---
 
