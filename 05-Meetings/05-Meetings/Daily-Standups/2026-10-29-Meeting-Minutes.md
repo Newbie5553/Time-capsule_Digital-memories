@@ -100,7 +100,7 @@
 | Resource | Link |
 |---|---|
 | 🎬 Meeting Recording | [Watch Recording](https://drive.google.com/file/d/1K0h6rT7NKR11ryxcelBYwDmVg2kSMG9H/view?usp=sharing) |
-| 📄 Meeting Minutes | [View Minutes]([https://docs.google.com/document/d/14Bt6rC_xB8dF_KKxtfpWhgLQ11FwW-YVTCorpdCeVL8/edit?tab=t.0](https://docs.google.com/document/d/1RAZuDVYdBy5ydADYiqHRfxdmqR_o9MQFdNwmhrkLjpc/edit?usp=sharing))) |
+| 📄 Meeting Minutes | [View Minutes](https://docs.google.com/document/d/1RAZuDVYdBy5ydADYiqHRfxdmqR_o9MQFdNwmhrkLjpc/edit?usp=sharing) |
 | 💻 Sprint 4 Source Code | [View Development](https://github.com/Newbie5553/Time-capsule_Digital-memories/tree/main/04-Development/Keepsake-Sprint-1) |
 
 > 📌 **Note:** Meeting recordings and documentation are maintained within the repository structure for project tracking.
