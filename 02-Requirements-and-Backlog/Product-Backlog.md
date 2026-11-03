@@ -45,13 +45,13 @@ covering the main features of the Time Capsule system.
 | US-11 | As a user, I want to edit an unlocked draft capsule so I can correct mistakes. | 🟡 Medium | ✅ Completed |
 | US-12 | As a user, I want to delete my own capsules so I can manage unwanted content. | 🟡 Medium | ✅ Completed |
 | US-13 | As a user, I want to see a countdown so I know when my capsule will unlock. | 🟡 Medium | ✅ Completed |
-| US-14 | As a user, I want to receive an unlock notification so I know when my memories are available. | 🟡 Medium | ⬜ Not Verified |
-| US-15 | As a user, I want to recover my password so I can regain account access. | 🟡 Medium | ⬜ Not Verified |
+| US-14 | As a user, I want to receive an unlock notification so I know when my memories are available. | 🟡 Medium | ✅ Completed |
+| US-15 | As a user, I want to recover my password so I can regain account access. | 🟡 Medium | ✅ Completed|
 | US-16 | As a user, I want to open my capsule after its unlock date so I can revisit my memories. | 🟢 Low | ✅ Completed |
 | US-17 | As a user, I want to give my capsule a title so I can recognize it easily. | 🟢 Low | ✅ Completed |
 | US-18 | As a user, I want to customize my capsule appearance so it feels personal. | 🟢 Low | ✅ Completed |
-| US-19 | As a user, I want to share an unlocked capsule with authorized people so we can revisit memories together. | 🟢 Low | 🟡 Pending Acceptance |
-| US-20 | As a user, I want to search my capsules by title so I can find memories quickly. | 🟢 Low | 🟡 Pending Acceptance |
+| US-19 | As a user, I want to share an unlocked capsule with authorized people so we can revisit memories together. | 🟢 Low | ✅ Completed |
+| US-20 | As a user, I want to search my capsules by title so I can find memories quickly. | 🟢 Low |  ✅ Completed  |
 
 ### 📌 Product Backlog Status Notes
 
