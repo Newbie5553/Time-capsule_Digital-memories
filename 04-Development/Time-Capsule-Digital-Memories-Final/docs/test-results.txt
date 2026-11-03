@@ -1,0 +1,65 @@
+test_csrf_required (test_accounts.AccountTests.test_csrf_required) ... ok
+test_dashboard_requires_login (test_accounts.AccountTests.test_dashboard_requires_login) ... ok
+test_duplicate_email_rejected (test_accounts.AccountTests.test_duplicate_email_rejected) ... ok
+test_invalid_registration (test_accounts.AccountTests.test_invalid_registration) ... ok
+test_logout_blocks_dashboard (test_accounts.AccountTests.test_logout_blocks_dashboard) ... ok
+test_missing_capsule_returns_not_found (test_accounts.AccountTests.test_missing_capsule_returns_not_found) ... ok
+test_password_hash_and_login (test_accounts.AccountTests.test_password_hash_and_login) ... ok
+test_public_pages_render (test_accounts.AccountTests.test_public_pages_render) ... ok
+test_registration_and_personal_dashboard (test_accounts.AccountTests.test_registration_and_personal_dashboard) ... ok
+test_user_text_escaped (test_accounts.AccountTests.test_user_text_escaped) ... ok
+test_bad_extension_and_disguised_file (test_capsules.CapsuleTests.test_bad_extension_and_disguised_file) ... ok
+test_count_limit_includes_existing_files (test_capsules.CapsuleTests.test_count_limit_includes_existing_files) ... ok
+test_create_edit_and_cover (test_capsules.CapsuleTests.test_create_edit_and_cover) ... ok
+test_csrf_blocks_draft_mutations (test_capsules.CapsuleTests.test_csrf_blocks_draft_mutations) ... ok
+test_delete_requires_confirmation_and_cleans_up (test_capsules.CapsuleTests.test_delete_requires_confirmation_and_cleans_up) ... ok
+test_failed_upload_rolls_back (test_capsules.CapsuleTests.test_failed_upload_rolls_back) ... [2026-10-29 22:15:36,514] ERROR in app: Could not save capsule draft
+Traceback (most recent call last):
+  File "/workspace/scratch/eb694cd0d215/Time-Capsule-Digital-Memories-Sprint-4/app.py", line 496, in edit_capsule
+    upload.save(destination)
+  File "/workspace/scratch/eb694cd0d215/Time-Capsule-Digital-Memories-Sprint-4/tests/test_capsules.py", line 123, in fail_save
+    raise OSError('Simulated disk full')
+OSError: Simulated disk full
+ok
+test_input_limits_and_theme_validation (test_capsules.CapsuleTests.test_input_limits_and_theme_validation) ... ok
+test_markup_escaped_in_capsule (test_capsules.CapsuleTests.test_markup_escaped_in_capsule) ... ok
+test_owner_only_on_every_route (test_capsules.CapsuleTests.test_owner_only_on_every_route) ... ok
+test_request_size_limit (test_capsules.CapsuleTests.test_request_size_limit) ... ok
+test_sprint_one_database_upgrade (test_capsules.CapsuleTests.test_sprint_one_database_upgrade) ... ok
+test_upload_download_and_retain_on_edit (test_capsules.CapsuleTests.test_upload_download_and_retain_on_edit) ... ok
+test_video_and_multiple_attachments (test_capsules.CapsuleTests.test_video_and_multiple_attachments) ... ok
+test_existing_database_is_preserved (test_database_rename.DatabaseRenameTests.test_existing_database_is_preserved) ... ok
+test_anonymous_requires_login (test_sharing_search.SharingSearchTests.test_anonymous_requires_login) ... ok
+test_csrf_and_revoke_confirmation (test_sharing_search.SharingSearchTests.test_csrf_and_revoke_confirmation) ... ok
+test_email_normalization (test_sharing_search.SharingSearchTests.test_email_normalization) ... ok
+test_html_escaping (test_sharing_search.SharingSearchTests.test_html_escaping) ... ok
+test_invalid_unknown_self_duplicate (test_sharing_search.SharingSearchTests.test_invalid_unknown_self_duplicate) ... ok
+test_literal_wildcard_and_sql_input (test_sharing_search.SharingSearchTests.test_literal_wildcard_and_sql_input) ... ok
+test_only_opened_capsule_can_be_shared (test_sharing_search.SharingSearchTests.test_only_opened_capsule_can_be_shared) ... ok
+test_owner_cannot_change_sealed_content (test_sharing_search.SharingSearchTests.test_owner_cannot_change_sealed_content) ... ok
+test_owner_only_recipient_list (test_sharing_search.SharingSearchTests.test_owner_only_recipient_list) ... ok
+test_recipient_cannot_mutate_or_reshare (test_sharing_search.SharingSearchTests.test_recipient_cannot_mutate_or_reshare) ... ok
+test_recipient_content_file_and_author (test_sharing_search.SharingSearchTests.test_recipient_content_file_and_author) ... ok
+test_revocation_existing_session_and_download (test_sharing_search.SharingSearchTests.test_revocation_existing_session_and_download) ... ok
+test_search_case_whitespace_empty_and_no_match (test_sharing_search.SharingSearchTests.test_search_case_whitespace_empty_and_no_match) ... ok
+test_search_does_not_leak_other_accounts (test_sharing_search.SharingSearchTests.test_search_does_not_leak_other_accounts) ... ok
+test_shared_dashboard_separate_without_content (test_sharing_search.SharingSearchTests.test_shared_dashboard_separate_without_content) ... ok
+test_shared_search (test_sharing_search.SharingSearchTests.test_shared_search) ... ok
+test_sprint_three_upgrade_and_restart (test_sharing_search.SharingSearchTests.test_sprint_three_upgrade_and_restart) ... ok
+test_time_rechecked_for_shared_access (test_sharing_search.SharingSearchTests.test_time_rechecked_for_shared_access) ... ok
+test_unknown_share_and_wrong_capsule (test_sharing_search.SharingSearchTests.test_unknown_share_and_wrong_capsule) ... ok
+test_unrelated_user_denied (test_sharing_search.SharingSearchTests.test_unrelated_user_denied) ... ok
+test_confirmation_page_and_sealing (test_timed_capsules.TimedCapsuleTests.test_confirmation_page_and_sealing) ... ok
+test_csrf_and_duplicate_seal (test_timed_capsules.TimedCapsuleTests.test_csrf_and_duplicate_seal) ... ok
+test_exact_opening_boundary (test_timed_capsules.TimedCapsuleTests.test_exact_opening_boundary) ... ok
+test_future_timezone_and_confirmation_validation (test_timed_capsules.TimedCapsuleTests.test_future_timezone_and_confirmation_validation) ... ok
+test_immutable_even_after_opening (test_timed_capsules.TimedCapsuleTests.test_immutable_even_after_opening) ... ok
+test_no_early_content_or_file_leaks (test_timed_capsules.TimedCapsuleTests.test_no_early_content_or_file_leaks) ... ok
+test_offset_time_is_normalized (test_timed_capsules.TimedCapsuleTests.test_offset_time_is_normalized) ... ok
+test_other_account_cannot_open_or_query_status (test_timed_capsules.TimedCapsuleTests.test_other_account_cannot_open_or_query_status) ... ok
+test_sprint_two_data_and_attachment_survive_migration (test_timed_capsules.TimedCapsuleTests.test_sprint_two_data_and_attachment_survive_migration) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 12.748s
+
+OK

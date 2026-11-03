@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="756.54pt" height="645.124387pt" viewBox="0 0 756.54 645.124387" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T22:18:43.234579</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 645.124387 
+L 756.54 645.124387 
+L 756.54 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.633409 63.565987 
+L 111.212045 63.565987 
+L 111.212045 91.285987 
+L 15.633409 91.285987 
+z
+" clip-path="url(#p393c71a5dd)" style="fill: #eaf1f8; stroke: #18334f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 218.035227 63.565987 
+L 313.613864 63.565987 
+L 313.613864 91.285987 
+L 218.035227 91.285987 
+z
+" clip-path="url(#p393c71a5dd)" style="fill: #eaf1f8; stroke: #18334f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 420.437045 63.565987 
+L 516.015682 63.565987 
+L 516.015682 91.285987 
+L 420.437045 91.285987 
+z
+" clip-path="url(#p393c71a5dd)" style="fill: #eaf1f8; stroke: #18334f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 622.838864 63.565987 
+L 718.4175 63.565987 
+L 718.4175 91.285987 
+L 622.838864 91.285987 
+z
+" clip-path="url(#p393c71a5dd)" style="fill: #eaf1f8; stroke: #18334f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 12.822273 400.086787 
+L 732.473182 400.086787 
+L 732.473182 426.143587 
+L 12.822273 426.143587 
+z
+" clip-path="url(#p393c71a5dd)" style="fill: #f3f5f8; stroke: #cbd3dc; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 63.422727 91.285987 
+L 63.422727 604.660387 
+" clip-path="url(#p393c71a5dd)" style="fill: none; stroke-dasharray: 3.2,3.2; stroke-dashoffset: 0; stroke: #9eacba; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 265.824545 91.285987 
+L 265.824545 604.660387 
+" clip-path="url(#p393c71a5dd)" style="fill: none; stroke-dasharray: 3.2,3.2; stroke-dashoffset: 0; stroke: #9eacba; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 468.226364 91.285987 
+L 468.226364 604.660387 
+" clip-path="url(#p393c71a5dd)" style="fill: none; stroke-dasharray: 3.2,3.2; stroke-dashoffset: 0; stroke: #9eacba; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 670.628182 91.285987 
+L 670.628182 604.660387 
+" clip-path="url(#p393c71a5dd)" style="fill: none; stroke-dasharray: 3.2,3.2; stroke-dashoffset: 0; stroke: #9eacba; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 468.226364 264.813187 
+L 510.393409 264.813187 
+L 510.393409 275.901187 
+" clip-path="url(#p393c71a5dd)" style="fill: none; stroke: #18334f; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18334f" x="7.2" y="20.877187" transform="rotate(-0 7.2 20.877187)">Remove a recipient access permission</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657587" x="7.2" y="43.053187" transform="rotate(-0 7.2 43.053187)">IMPLEMENTED • US-19 supporting task • Sprint 4</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="63.422727" y="80.185362" transform="rotate(-0 63.422727 80.185362)">User</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="265.824545" y="80.185362" transform="rotate(-0 265.824545 80.185362)">Website</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="468.226364" y="80.1463" transform="rotate(-0 468.226364 80.1463)">Python Flask</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="670.628182" y="80.185362" transform="rotate(-0 670.628182 80.185362)">SQLite</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 65.420926 125.104387 
+Q 164.621268 125.104387 262.703576 125.104387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 258.703576 123.104387 
+L 262.703576 125.104387 
+L 258.703576 127.104387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="164.623636" y="116.579869" transform="rotate(-0 164.623636 116.579869)">Owner confirms removal of access</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 267.822745 162.249187 
+Q 367.023086 162.249187 465.105394 162.249187 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 461.105394 160.249187 
+L 465.105394 162.249187 
+L 461.105394 164.249187 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(287.839517 143.646637)">POST revoke with confirmation and</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(355.311392 153.724669)">CSRF</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 470.224563 199.393987 
+Q 569.424905 199.393987 667.507212 199.393987 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 663.507212 197.393987 
+L 667.507212 199.393987 
+L 663.507212 201.393987 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="569.427273" y="190.869469" transform="rotate(-0 569.427273 190.869469)">Load owned capsule</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 668.629983 236.538787 
+Q 569.429641 236.538787 471.347333 236.538787 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 475.347333 238.538787 
+L 471.347333 236.538787 
+L 475.347333 234.538787 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="569.427273" y="228.014269" transform="rotate(-0 569.427273 228.014269)">Return capsule or no match</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 508.393666 275.901187 
+Q 489.307823 275.901187 471.340014 275.901187 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 475.340014 277.901187 
+L 471.340014 275.901187 
+L 475.340014 273.901187 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(320.832997 247.319437)">Require owner, ready state and</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(405.712841 257.397469)">confirmation</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 470.224563 310.828387 
+Q 569.424905 310.828387 667.507212 310.828387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 663.507212 308.828387 
+L 667.507212 310.828387 
+L 663.507212 312.828387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(496.38032 292.225837)">Delete share matching both IDs;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(552.418679 302.303869)">commit</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 668.629983 347.973187 
+Q 569.429641 347.973187 471.347333 347.973187 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 475.347333 349.973187 
+L 471.347333 347.973187 
+L 475.347333 345.973187 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="569.427273" y="339.448669" transform="rotate(-0 569.427273 339.448669)">Confirm deleted relationship</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 466.228165 385.117987 
+Q 367.027823 385.117987 268.945515 385.117987 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 272.945515 387.117987 
+L 268.945515 385.117987 
+L 272.945515 383.117987 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="367.025455" y="376.593469" transform="rotate(-0 367.025455 376.593469)">Redirect with removal confirmation</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="21.255682" y="416.151762" transform="rotate(-0 21.255682 416.151762)">On a subsequent recipient request</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 267.822745 459.407587 
+Q 367.023086 459.407587 465.105394 459.407587 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 461.105394 457.407587 
+L 465.105394 459.407587 
+L 461.105394 461.407587 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="367.025455" y="450.883069" transform="rotate(-0 367.025455 450.883069)">Request capsule or attachment again</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 470.224563 496.552387 
+Q 569.424905 496.552387 667.507212 496.552387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 663.507212 494.552387 
+L 667.507212 496.552387 
+L 663.507212 498.552387 
+" style="fill: none; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="569.427273" y="488.027869" transform="rotate(-0 569.427273 488.027869)">Check recipient relationship</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 668.629983 533.697187 
+Q 569.429641 533.697187 471.347333 533.697187 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 475.347333 535.697187 
+L 471.347333 533.697187 
+L 475.347333 531.697187 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="569.427273" y="525.172669" transform="rotate(-0 569.427273 525.172669)">No matching relationship</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 466.228165 570.841987 
+Q 367.027823 570.841987 268.945515 570.841987 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+    <path d="M 272.945515 572.841987 
+L 268.945515 570.841987 
+L 272.945515 568.841987 
+" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #18334f; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="367.025455" y="562.317469" transform="rotate(-0 367.025455 562.317469)">Return 404</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657587" x="12.822273" y="633.280669" transform="rotate(-0 12.822273 633.280669)">Removing access blocks future requests; it cannot recall a download already authorized or completed.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p393c71a5dd">
+   <rect x="7.2" y="10.897987" width="742.14" height="627.0264"/>
+  </clipPath>
+ </defs>
+</svg>

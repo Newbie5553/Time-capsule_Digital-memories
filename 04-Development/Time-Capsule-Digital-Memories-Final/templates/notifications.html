@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">STAY CONNECTED</p><h1>Notifications</h1><p>New shares and capsules ready to open.</p></div></div>
+<section class="notifications-list" aria-label="Notification inbox">
+{% for item in notifications %}
+<article class="notification-entry {% if not item.read_at %}unread{% endif %}">
+  <div><strong>{{ 'A capsule was shared with you' if item.kind == 'invitation' else 'Your capsule is ready to open' }}</strong>
+  <p>{{ item.title }}</p><small>{{ item.created_at|date }}{% if not item.read_at %} · New{% endif %}</small></div>
+  <form method="post" action="{{ url_for('read_notification', notification_id=item.id) }}">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <button class="button secondary" type="submit">View capsule</button>
+  </form>
+</article>
+{% else %}<div class="empty-collection"><h3>No notifications yet</h3><p>You'll see invitations and opening alerts here.</p></div>{% endfor %}
+</section>
+{% endblock %}

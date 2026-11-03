@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block content %}
+<a class="back" href="{{ url_for('dashboard') if is_owner else url_for('shared_capsules') }}">← Back to {{ 'your collection' if is_owner else 'shared memories' }}</a>
+<div class="page-heading">
+    <div>
+        <p class="eyebrow">{{ 'A MEMORY, REDISCOVERED' if state == 'ready' else 'YOUR STORY, STILL UNFOLDING' }}</p>
+        <h1 class="wrap-title">{{ capsule.title }}</h1>
+        <p>{{ 'Ready to open' if state == 'ready' else 'Draft' }} · Created {{ capsule.created_at|date }} · Updated {{ capsule.updated_at|date }}</p>
+    </div>
+    {% if is_owner and state == 'ready' %}
+    <a class="button" href="{{ url_for('share_capsule', capsule_id=capsule.id) }}">{{ icon('people') }} Share this memory</a>
+    {% elif is_owner and state == 'draft' %}
+    <a class="button" href="{{ url_for('edit_capsule', capsule_id=capsule.id) }}">Edit draft {{ icon('arrow') }}</a>
+    {% endif %}
+</div>
+{% if not is_owner %}
+<div class="sharing-banner">{{ icon('people') }} Shared by {{ capsule.owner_name }} · Read-only access</div>
+{% endif %}
+<div class="reading-layout">
+    <article class="letter-paper">
+        <span class="eyebrow">DEAR FUTURE YOU</span>
+        <div class="letter-text">{{ capsule.message }}</div>
+        <span class="signature">With love, {{ capsule.owner_name }}</span>
+    </article>
+    <aside>
+        <div class="panel">
+            <h3>{{ icon('box') }} A moment in the making</h3>
+            <div class="card-art {{ capsule.theme }}">
+                <span class="badge {{ state }}">{{ "Draft" if state == "draft" else "Opened" }}</span>
+                <div class="mini-envelope">{{ icon('mail') }}</div>
+            </div>
+            {% if state == 'draft' %}
+            <p class="hint">Review your memories, then choose a date to open them.</p>
+            <a class="button wide" href="{{ url_for('seal_capsule', capsule_id=capsule.id) }}">Choose opening date &amp; seal</a>
+            <a class="delete-button center" href="{{ url_for('delete_capsule', capsule_id=capsule.id) }}">Delete draft</a>
+            {% else %}
+            <p class="hint">Your wait is over. This memory is now available to read and download.</p>
+            <p class="hint">Opening time: <time data-local-time="{{ capsule.unlock_at }}">{{ capsule.unlock_at|date }}</time></p>
+            {% endif %}
+        </div>
+        <div class="panel attachment-panel">
+            <h3>{{ icon('mail') }} Little pieces of today</h3>
+            {% for file in attachments %}
+            <a class="attachment" href="{{ url_for('download_attachment', attachment_id=file.id) }}">
+                {{ icon('mail') }}
+                <span>{{ file.filename }}<small>{{ file.kind|capitalize }} · Download</small></span>
+                ↓
+            </a>
+            {% else %}
+            <p class="hint">This capsule has no attachments.</p>
+            {% endfor %}
+        </div>
+    </aside>
+</div>
+{% endblock %}

@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}
+<div class="page-heading"><div><p class="eyebrow">ADMINISTRATION</p><h1>Account management<span class="gold">.</span></h1><p>Disable an account without deleting memories. Changes apply immediately to subsequent requests.</p></div></div>
+<section class="panel" style="padding:24px"><h2>Registered users</h2>
+{% for person in users %}<div class="person-row"><div><strong>{{ person.name }}</strong><p>{{ person.email }} · {{ person.role }} · {{ 'Active' if person.active else 'Disabled' }}</p></div>
+{% if person.role != 'admin' %}<form method="post" action="{{ url_for('admin_toggle_user', user_id=person.id) }}"><input type="hidden" name="csrf" value="{{ csrf_token() }}"><label><input type="checkbox" name="confirm" value="yes" required> Confirm</label><button class="button secondary" type="submit">{{ 'Disable account' if person.active else 'Restore account' }}</button></form>{% endif %}</div>{% endfor %}
+</section>{% endblock %}
