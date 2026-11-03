@@ -2,7 +2,7 @@
 # 🚀 Sprint 4 Backlog
 ## Time Capsule – Digital Memories for the Future
 
-**Application:** KeepSafe  
+**Application:** Time Capsule   
 **Course:** ITC 315 – Software Engineering  
 **Methodology:** Agile Scrum  
 **Sprint:** 4  
