@@ -40,16 +40,16 @@ application should do.
 |---|---|---|
 | FR-01 | Users can register an account. | ✅ Working |
 | FR-02 | Users can log in securely. | ✅ Working |
-| FR-03 | Users can log out. | 🟡 Verification Pending |
-| FR-04 | Users can access a personal dashboard. | 🔄 In Progress |
-| FR-05 | Users can create a time capsule. | ⏳ Planned |
-| FR-06 | Users can add a title and message. | ⏳ Planned |
-| FR-07 | Users can upload photos or videos. | ⏳ Planned |
-| FR-08 | Users can select a future unlock date. | ⏳ Planned |
-| FR-09 | Users can save capsule drafts. | ⏳ Planned |
-| FR-10 | Users can view their saved capsules. | ⏳ Planned |
-| FR-11 | Users can edit unlocked capsule drafts. | ⏳ Planned |
-| FR-12 | Users can access capsules after unlocking. | ⏳ Planned |
+| FR-03 | Users can log out. | ✅ Working |
+| FR-04 | Users can access a personal dashboard. | ✅ Working  |
+| FR-05 | Users can create a time capsule. | ✅ Working |
+| FR-06 | Users can add a title and message. | ✅ Working |
+| FR-07 | Users can upload photos or videos. | ✅ Working  |
+| FR-08 | Users can select a future unlock date. | ✅ Working  |
+| FR-09 | Users can save capsule drafts. | ✅ Working |
+| FR-10 | Users can view their saved capsules. | ✅ Working |
+| FR-11 | Users can edit unlocked capsule drafts. | ✅ Working |
+| FR-12 | Users can access capsules after unlocking. | ✅ Working |
 
 ---
 
